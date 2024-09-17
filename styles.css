@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(188, 188, 247);
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+.nav {
+    background-color: rgb(96, 96, 252);
+    padding: 5px 0;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    transition-property: background-color, padding, border-radius;
+    transition-duration: 0.5s;
+}
+
+.nav__link:hover {
+    background-color: rgba(102, 171, 255, 0.349);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.encabezado {
+    margin: 0;
+    text-align: center;
+}
+
+.caja {
+    margin: 40px 100px;
+    text-align: center;
+}
+
+.caja__img {
+    width: 400px;
+    border-radius: 4px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+
+.caja__img:hover {
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 3px teal;
+}
+
+.caja__imagenes {
+    display: inline-block;
+}
+
+.tamaño {
+    width: 370px;
+    padding: 10px;
+}
+
+.subtitulo {
+    padding-top: 20px;
+}
+
+/* OTROS */
+.contenedor {
+    margin: 0;
+    text-align: center;
+
+    transition-property: background-color, border-bottom;
+    transition-duration: 0.5s;
+    position: relative;
+}
+.contenedor:hover {
+    background-color: rgb(173, 173, 252);
+    border-bottom: 3px solid rgb(0, 0, 102);
+
+}
+.contenedor__item {
+    display: inline-block;
+    padding: 30px;
+    text-align: left;
+}
+
+.contenedor__img {
+    width: 200px;
+    height: 200px;
+}
+
+.tabla {
+    width: 50vw;
+    padding: 20px;
+}
+
+li {
+    text-align: left;
+}
+
+.tamaño1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* AUTORES */
+.cards_container {
+    text-align: center;
+}
+.card {
+    text-align: center;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 9px rgba(95, 95, 95, 0.555);
+    
+    display: inline-block;
+    margin: 0 30px;
+
+    transition-property: padding;
+    transition-duration: 0.5s;
+}
+
+.green_card {
+    background-color: rgb(41, 182, 41);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.purple_card {
+    background-color: rgb(196, 0, 196);
+}
+
+.card_title {
+    color: white;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 26px;
+}
+
+.card_subtitle {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+    color: rgb(226, 213, 213);
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0;
+}
+
+.card_content {
+    padding: 29px;
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+
+.card_img {
+    width: 130px;
+    height: 158px;
+    margin-top: 30px;
+    border-radius: 20%;
+    box-shadow: 0 0 25px rgba(7, 0, 0, 0.445);
+}
+
+.card:hover {
+    padding: 10px;
+}
