@@ -4,6 +4,8 @@ body {
     background-color: rgb(188, 188, 247);
 }
 
+
+
 h1 {
     font-size: 1.8em;
 }
@@ -50,7 +52,7 @@ h1 {
     width: 400px;
     border-radius: 4px;
     transition-property: box-shadow;
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 
 .caja__img:hover {
@@ -63,26 +65,58 @@ h1 {
 }
 
 .tamaño {
-    width: 370px;
-    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    object-fit: contain;
 }
 
 .subtitulo {
     padding-top: 20px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+span {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New';
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.vsc {
+    color: blue !important; 
+}
+
+.linkpre {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    transition-property: text-decoration;
+    transition-duration: 4s;
+}
+.linkpre:hover {
+    text-decoration: underline;
+}
+
 /* OTROS */
 .contenedor {
     margin: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
     text-align: center;
 
-    transition-property: background-color, border-bottom;
-    transition-duration: 0.5s;
+    transition-property: background-color, outline;
+    transition-duration: 0.17s;
     position: relative;
 }
 .contenedor:hover {
     background-color: rgb(173, 173, 252);
-    border-bottom: 3px solid rgb(0, 0, 102);
+    outline: 3px solid rgb(0, 0, 102);
 
 }
 .contenedor__item {
@@ -94,6 +128,7 @@ h1 {
 .contenedor__img {
     width: 200px;
     height: 200px;
+    object-fit: contain;
 }
 
 .tabla {
@@ -103,11 +138,13 @@ h1 {
 
 li {
     text-align: left;
+    padding: 2px;
 }
 
 .tamaño1 {
     width: 100px;
-    height: 100px;
+    margin: 5px;
+    object-fit: contain;
 }
 
 
